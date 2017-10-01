@@ -1,0 +1,18 @@
+﻿@model OrixDemoSubmission.Models.Toppings
+<table>
+    <tr>
+        <td>
+            @Html.HiddenFor(x => x.ID)
+            @Html.HiddenFor(x => x.TopName)
+
+            @Html.CheckBoxFor(x => x.IsChecked)
+            @Html.DisplayFor(x => x.TopName)
+        </td>
+    </tr>
+</table>
+@*@Html.HiddenFor(x=> x.ID)
+@Html.HiddenFor(x=>x.TopName)
+
+@Html.CheckBoxFor(x=>x.IsChecked)
+@Html.DisplayFor(x=>x.TopName)*@
+

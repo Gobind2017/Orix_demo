@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Confirmation";
+}
+
+<h2>Order Confirmation:</h2>
+<label>@Html.Raw(ViewBag.message)</label>
+<div class="form-group">
+    <div class="col-md-offset-2 col-md-10">
+        <a href='@Url.Action("MakeNewOrder", "Home")'>
+            <input type='button' value='Create another order' />
+        </a>
+    </div>
+</div>
