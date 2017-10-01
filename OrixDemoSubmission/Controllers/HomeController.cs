@@ -112,8 +112,6 @@ namespace OrixDemoSubmission.Controllers
         {
             TempData.Remove("personInfo");
             return RedirectToAction("Index");
-        }
-
-        
+        }        
     }
 }
