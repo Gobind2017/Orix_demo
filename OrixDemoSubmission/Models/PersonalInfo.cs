@@ -26,8 +26,7 @@ namespace OrixDemoSubmission.Models
 
 
     public class Toppings
-    {
-       
+    {       
         public int ID { get; set; }
         public string TopName { get; set; }
         public bool IsChecked { get; set; }
