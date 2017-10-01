@@ -15,14 +15,12 @@ namespace OrixDemoSubmission.Controllers
         public ActionResult Index()
         {
             return View();
-
         }
         [HttpPost]
         public ActionResult Index(PersonalInfo info)
         {                      
             TempData["personInfo"] = info; 
             return RedirectToAction("topping", "Home");
-
         }
         public ActionResult PersonDetail()
         {
